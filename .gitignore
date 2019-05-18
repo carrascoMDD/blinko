@@ -1,0 +1,9 @@
+blinkoerlang/.idea
+blinkoerlang/blinkoerlang.iml
+blinkoerlang/out
+blinkopython/blinkopython.wpr
+blinkopython/blinkopython.wpu
+blinkopython/blinkopython-sensor/*.pyc
+blinkopython/blinkopython-show/*.pyc
+blinkopython/blinkopython-show/bibliopixel/*.pyc
+

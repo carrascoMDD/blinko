@@ -1,21 +1,5 @@
 # blinko :  Distributed CPU usage monitoring and LED display written in Erlang and Python2 BiblioPixel
 **Distributed CPU usage monitoring and APA102 LED display written in Erlang and Python2 BiblioPixel.**
-
-ash shell:
-
-~~~~
-# convenience shell function to run from npm node_modules bin
-function npm-do { (PATH=$(npm bin):$PATH; eval $@;) }
-
-npm-do ionic start flowable-ionic4angular6-inbox01app super
-~~~~
-
-Then to run the application:
-
-~~~~
-cd flowable-ionic4angular6-inbox01app
- ../node_modules/.bin/ionic serve
-~~~~
  
 Created @author Antonio Carrasco Valero 20190512
 

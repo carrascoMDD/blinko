@@ -22,4 +22,34 @@ express or implied.
 See the Licence for the specific language governing
 permissions and limitations under the Licence.
 
+# Dependencies
 
+## user access to the serial
+
+The user running the blinko-show python code must be allowed to write-access serial hardware interface.
+I.e. by adding the user to the 'dialout' users group.
+
+    sudo usermod -a -G dialout Ausername
+
+
+## BiblioPixel
+
+Written in Python to drive LED strips and pannels. 
+
+This blinko implementation includes a snapshot of an earlier and simpler version of BilioPixel. 
+This blinko implementation does not utilize BiblioPixel's animation capabilities, 
+just the mapping of colors and sending to the LED controller device.
+
+BiblioPixel is now way more advanced in their later versions.
+https://github.com/ManiacalLabs/PixelWeb/wiki
+
+
+## erlport - to call python from erlang
+
+
+
+## sysbench - to waste CPU cycles to display on LED strip
+
+Uses the sysbench utility to waste some CPU cycles to be shown on LED strip. Install i.e. by (debian/ubuntu):
+
+    sudo apt-get install sysbench

@@ -138,6 +138,7 @@ a() ->
     ".
 
 % local local 100 1000000  1000000  [[100,1000,1,20000,1]]
+% local local 600 1000000  1000000 [[300,2000,1,20000,1],[200,3000,1,20000,1],[120,4500,1,20000,1],[100,5000,1,20000,1],[600,1000,1,20000,1],[450,2500,1,20000,1],[410,1700,1,20000,1],[310,3300,1,20000,1],[210,2300,1,20000,1],[410,2200,1,20000,1]]
 
 start(T_DisplayNode, T_MonitoredNode, T_NumIterations, T_ShowStopAtCount, T_SensorBadarithWhenLeft, T_AllWasters) ->
     io:fwrite("blinkosvisor:start T_NumIterations=~B, T_ShowStopAtCount=~B, T_SensorBadarithWhenLeft=~B, T_AllWasters=~w\n", [T_NumIterations, T_ShowStopAtCount, T_SensorBadarithWhenLeft, T_AllWasters]),
